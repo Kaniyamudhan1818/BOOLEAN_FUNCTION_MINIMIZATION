@@ -2,7 +2,7 @@
 ### REF NO. : 24900925
 # EXPERIMENT NO. 2 : IMPLEMENTATION OF BOOLEAN ALGEBRA
 
-# AIM:
+## AIM:
 
 To implement the given logic function verify its operation in Quartus using Verilog programming.
 
@@ -10,17 +10,17 @@ F1= A’B’C’D’+AC’D’+B’CD’+A’BCD+BC’D
 
 F2=xy’z+x’y’z+w’xy+wx’y+wxy
 
-# EQUIPMENT REQUIRED:
+## EQUIPMENT REQUIRED:
 
 Hardware – PCs, Cyclone II , USB flasher
 
 Software – Quartus prime
 
-# THEORY:
+## THEORY:
 
 Implementing Boolean functions in Verilog HDL (Hardware Description Language) involves translating the simplified Boolean expressions into Verilog code to describe the behavior of digital circuits. The basic building blocks in Verilog is module. The module represent a combinational circuit. Use logical operators (&, |, ~, ^) to implement Boolean functions directly. Use built-in gate primitives for basic functions. Use University program VWF to verify the functionality of your Verilog modules. Create waveform and check outputs against expected results.
 
-# PROCEDURE:
+## PROCEDURE:
 
 1.	Type the program in Quartus software.
 
@@ -33,7 +33,7 @@ Implementing Boolean functions in Verilog HDL (Hardware Description Language) in
 5.	For different input combinations generate the timing diagram.
 
 
-# PROGRAM:
+## PROGRAM:
 
 ![e2program](https://github.com/user-attachments/assets/2dd5252a-6d47-40d2-8c5a-a30180219dc0)
 
@@ -42,15 +42,15 @@ Implementing Boolean functions in Verilog HDL (Hardware Description Language) in
 
 Developed by: RegisterNumber:*/
 
-# TRUTH TABLE :
+## TRUTH TABLE :
 
 ![e2truthtable](https://github.com/user-attachments/assets/5fb38bd7-a70c-4e02-9ce6-31034104be2d)
 
-# RTL OUTPUT :
+## RTL OUTPUT :
 
 ![e2 RTL diagram](https://github.com/user-attachments/assets/5bd09844-d256-4627-84fa-01035dd195a2)
 
-# OUTPUT WAVEFORM :
+## OUTPUT WAVEFORM :
 
 ![e2 waveform](https://github.com/user-attachments/assets/4c588fbd-4638-4eb6-9285-41c671f1f74f)
 
